@@ -1,0 +1,35 @@
+.top_nav {
+    overflow: hidden;
+  
+    position: relative;
+    min-height: 70px;
+  }
+  .top_nav #myLinks {
+    display: none;
+  }
+  .top_nav a {
+    color: white;
+    padding: 26px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .top_nav a.icon {
+  
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 28px;
+  }
+  .top_nav a:hover {
+    background-color: #ddd;
+  }
+  @media only screen and (max-width: 700px) {
+  
+    .top_nav nav a {
+      display: none;
+    }
+  
+  }
+  
